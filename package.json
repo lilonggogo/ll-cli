@@ -1,0 +1,21 @@
+{
+  "name": "ll-cli",
+  "version": "1.0.0",
+  "description": "simple vue cli",
+  "main": "index.js",
+  "bin": {
+    "ll-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "sd"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.0"
+  }
+}
